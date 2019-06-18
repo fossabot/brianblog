@@ -16,6 +16,7 @@
       "groupName": "react"
     }
   ],
+  "schedule": "before 3am on Monday",
   "labels": ["renovate"],
   "prHourlyLimit": 4,
   "prConcurrentLimit": 16,
