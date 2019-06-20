@@ -3,20 +3,18 @@
  */
 
  //Classic Atom One Dark Pro Colors
-$purple: #c678dd;
-$coral: #e06c75;
-$whiskey: #d19a66;
-$chalky: #e5c07b;
 $light: #c8c8c8;
 $lesslight:#abb2bf;
 $dark: #282c34;
+$coral: #e06c75;
+$whiskey: #d19a66;
 $malibu: #61afef;
 $fountainBlue: #56b6c2;
 $green: #98c379;
 
 // Colors for things
 $background: $dark;
-$hover: $chalky;
+$hover: $green;
 
 $article-title: $light;
 $article-text: $lesslight;
@@ -28,10 +26,10 @@ $vertical-line-light: $malibu;
 $vertical-line-dark: $dark;
 $hr: $malibu;
 $border: $light;
-$icon: $green;
+$icon: $malibu;
 $icon-hover: $hover;
 
-$menu: $purple;
+$menu: $coral;
 $menu-link: $menu;
 $menu-link-active: $menu;
 $menu-link-hover: $hover;
