@@ -2,7 +2,7 @@
 template: post
 title: Placeholder post
 slug: wip
-draft: true
+draft: false
 date: 2019-06-20T17:58:31.021Z
 description: This will be a real post later
 category: wip
