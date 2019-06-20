@@ -1,7 +1,7 @@
 ---
 template: page
 title: Contact me
-slug: contact-me
+slug: contacts
 draft: false
 ---
 wip
