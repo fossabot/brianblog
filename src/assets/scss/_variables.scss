@@ -2,18 +2,62 @@
  * Variables
  */
 
-// Colors
-$color-base: #222;
-$color-primary: #5D93FF;
-$color-secondary: #F7A046;
+ //Classic Atom One Dark Pro Colors
+$light: #c8c8c8;
+$lesslight:#abb2bf;
+$dark: #282c34;
+$coral: #e06c75;
+$whiskey: #d19a66;
+$malibu: #61afef;
+$fountainBlue: #56b6c2;
+$green: #98c379;
 
-$color-white: #FFF;
-$color-gray: lighten($color-base, 40%);
-$color-gray-border: lighten($color-base, 77%);
-$color-gray-bg: lighten($color-base, 79%);
+// Colors for things
+$background: $dark;
+$hover: $green;
+
+$article-title: $light;
+$article-text: $lesslight;
+$article-link: $coral;
+$article-link-hover: $hover;
+$figcaption: $whiskey;
+
+$vertical-line-light: $malibu;
+$vertical-line-dark: $dark;
+$hr: $malibu;
+$border: $light;
+$icon: $malibu;
+$icon-hover: $hover;
+
+$menu: $coral;
+$menu-link: $menu;
+$menu-link-active: $menu;
+$menu-link-hover: $hover;
+
+$home-button: $menu;
+$home-button-hover: $hover;
+
+$date: $light;
+$tag: $fountainBlue;
+$tag-hover: $hover;
+
+$author-name: $malibu;
+$author-name-hover: $hover;
+$author-subtitle: $light;
+$copyright: $lesslight;
+
+$read-more: $coral;
+
+$navigation: $malibu;
+$prev-link: $navigation;
+$prev-link-hover: $hover;
+$prev-link-disabled: $background;
+$next-link: $navigation;
+$next-link-hover: $hover;
+$next-link-disabled: $background;
 
 // Typographic
-$typographic-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$typographic-font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
 
 $typographic-root-font-size: 100;
 $typographic-base-font-size: 16px;
@@ -21,9 +65,9 @@ $typographic-small-font-size: 14px;
 
 $typographic-base-line-height: 1.625;
 
-$typographic-base-font-color: $color-base;
-$typographic-link-p-font-color: $color-primary;
-$typographic-link-s-font-color: $color-secondary;
+$typographic-base-font-color: $article-text;
+$typographic-link-p-font-color: $article-link;
+$typographic-link-s-font-color: $article-link-hover;
 
 $typographic-leading: round(16 * ($typographic-root-font-size / 100) * $typographic-base-line-height);
 
