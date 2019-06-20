@@ -11,38 +11,51 @@ $light: #c8c8c8;
 $lesslight:#abb2bf;
 $dark: #282c34;
 $malibu: #61afef;
+$fountainBlue: #56b6c2;
 $green: #98c379;
 
 // Colors for things
 $background: $dark;
+$hover: $chalky;
+
 $article-title: $light;
 $article-text: $lesslight;
-$article-link: $malibu;
-$article-link-hover: $green;
-$border-dark: $malibu;
-$border-light: $light;
-$icon: $whiskey;
-$icon-hover: $green;
-$menu-link: $coral;
-$menu-link-active: $coral;
-$menu-link-hover: $green;
-$home-button: $coral;
-$home-button-hover: $green;
-$date: $whiskey;
-$hr: $lesslight;
-$tag: $malibu;
-$tag-hover: $green;
+$article-link: $coral;
+$article-link-hover: $hover;
+$figcaption: $whiskey;
+
+$vertical-line-light: $malibu;
+$vertical-line-dark: $dark;
+$hr: $malibu;
+$border: $light;
+$icon: $green;
+$icon-hover: $hover;
+
+$menu: $purple;
+$menu-link: $menu;
+$menu-link-active: $menu;
+$menu-link-hover: $hover;
+
+$home-button: $menu;
+$home-button-hover: $hover;
+
+$date: $light;
+$tag: $fountainBlue;
+$tag-hover: $hover;
+
 $author-name: $malibu;
-$author-name-hover: $green;
+$author-name-hover: $hover;
 $author-subtitle: $light;
 $copyright: $lesslight;
-$figcaption: $whiskey;
-$read-more: $green;
-$prev-link: $purple;
-$prev-link-hover: $green;
+
+$read-more: $coral;
+
+$navigation: $malibu;
+$prev-link: $navigation;
+$prev-link-hover: $hover;
 $prev-link-disabled: $background;
-$next-link: $chalky;
-$next-link-hover: $green;
+$next-link: $navigation;
+$next-link-hover: $hover;
 $next-link-disabled: $background;
 
 // Typographic
